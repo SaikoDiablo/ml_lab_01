@@ -52,22 +52,13 @@ The experiment was executed using Python 3.11.8 on the CPU. The installed packag
 
 ## Results
 
-
-
 | Metric | Logistic Regression | Random Forest |
-
 |---|---:|---:|
-
 | Test accuracy | 0.9883 | 0.9357 |
-
 | F1 score | 0.9907 | 0.9488 |
-
 | Median training time | 0.006856 s | 0.119424 s |
-
 | Median inference latency | 0.520350 ms | 3.449950 ms |
-
 | Saved model size | 3.17 KiB | 285.01 KiB |
-
 | Process memory after training | 157.12 MiB | 157.53 MiB |
 
 
