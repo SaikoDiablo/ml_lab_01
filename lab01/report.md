@@ -1,10 +1,10 @@
 
 
-\# Lab 1 — Machine Learning Model Benchmarking
+# Lab 1 — Machine Learning Model Benchmarking
 
 
 
-\## Goal
+## Goal
 
 
 
@@ -12,7 +12,7 @@ The goal of this laboratory was to compare machine-learning models in terms of p
 
 
 
-\## Method
+## Method
 
 
 
@@ -28,9 +28,9 @@ Two models were evaluated:
 
 
 
-1\. Logistic Regression with StandardScaler and a maximum of 1,000 iterations.
+1. Logistic Regression with StandardScaler and a maximum of 1,000 iterations.
 
-2\. Random Forest with 100 decision trees.
+2. Random Forest with 100 decision trees.
 
 
 
@@ -50,7 +50,7 @@ The experiment was executed using Python 3.11.8 on the CPU. The installed packag
 
 
 
-\## Results
+## Results
 
 
 
@@ -76,15 +76,15 @@ The comparison plot is saved in `results/model\_comparison.png`. Detailed measur
 
 
 
-\## Conclusions
+## Conclusions
 
 
 
-1\. \*\*Predictive performance:\*\* Logistic Regression achieved an accuracy of 98.83% and an F1 score of 99.07%, outperforming Random Forest on this test split. Random Forest achieved an accuracy of 93.57% and an F1 score of 94.88%.
+1. **Predictive performance:** Logistic Regression achieved an accuracy of 98.83% and an F1 score of 99.07%, outperforming Random Forest on this test split. Random Forest achieved an accuracy of 93.57% and an F1 score of 94.88%.
 
 
 
-2\. \*\*Performance:\*\* Logistic Regression had a median training time of approximately 6.86 milliseconds and median single-sample inference latency of approximately 0.52 milliseconds. Random Forest required approximately 119.42 milliseconds for training and 3.45 milliseconds for single-sample inference. In this experiment, Logistic Regression was faster for both operations.
+2. **Performance:** Logistic Regression had a median training time of approximately 6.86 milliseconds and median single-sample inference latency of approximately 0.52 milliseconds. Random Forest required approximately 119.42 milliseconds for training and 3.45 milliseconds for single-sample inference. In this experiment, Logistic Regression was faster for both operations.
 
 
 
