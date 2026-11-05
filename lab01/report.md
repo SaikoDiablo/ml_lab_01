@@ -88,7 +88,7 @@ The comparison plot is saved in `results/model\_comparison.png`. Detailed measur
 
 
 
-3\. \*\*Resource requirements:\*\* The serialized Logistic Regression model was approximately 3.17 KiB, compared with 285.01 KiB for Random Forest. Therefore, Logistic Regression had a substantially smaller saved model file. The recorded process-memory values include the Python interpreter and loaded libraries; they do not represent memory required by the model alone. Deployment suitability must be evaluated against the actual memory, model-size, and latency limits specified for each target environment.
+3. **Resource requirements:** The serialized Logistic Regression model was approximately 3.17 KiB, compared with 285.01 KiB for Random Forest. Therefore, Logistic Regression had a substantially smaller saved model file. The recorded process-memory values include the Python interpreter and loaded libraries; they do not represent memory required by the model alone. Deployment suitability must be evaluated against the actual memory, model-size, and latency limits specified for each target environment.
 
 
 
